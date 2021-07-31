@@ -1,0 +1,76 @@
+IDEA工具的使用：
+第一次打开的时候：会弹出一个窗口（import idea settings）
+    这个表示导入idea的设置，但我们是第一次使用idea工具，
+    没有设置过idea，所以这里选择：do not import setting...不导入设置。
+弹出welcome窗口
+    点击create new project
+    注意：在IDEA当中一个project相当于eclipse当中的一个workspace
+新建一个Empty Project
+    新建一个空的工程，选择创建工程窗口下面"最后的那一项"，Empty Project
+给空的工程起一个名字：javase
+    存储到：
+    点击finish
+自动弹出一个每日提示，这个每日提示可以取消掉。
+会自动弹出一个：Project structure，这个窗口先取消掉。
+在空的工程下新建Module(模块)，IDEA中模块类似于eclipse当中的project。
+    eclipse的组织方式：
+        workspace--->project
+    idea的组织方式：
+        project---> module
+    怎么创建module？
+        file菜单 --> new --> Module
+在New Module窗口上点击左上角的java，然后next
+给module起一个名字：chapter15
+编写代码，在src目录下新建类，写代码，并运行。
+
+关于IDEA工具的快捷键以及一些简单的设置
+    字体设置
+        file-->settings-->输入font-->设置字体样式以及字号大小。
+    快速生成main方法
+        psvm
+    快速生成System.out.println()
+        sout
+    注意：IDEA是自动保存，不需要ctrl+s
+    idea中退出任何窗口，都可以使用esc键盘。（esc就是退出）
+    任何新增/新建/添加的快捷键是：
+        alt + insert
+    窗口变大，变小：
+        ctrl+shift++F12
+    切换java程序：
+        alt + 右箭头
+        或者
+        alt + 左箭头
+    怎么运行：
+        ctrl + shift +F10
+    切换窗口：
+        alt + 标号
+        alt + 1（打开，关闭）
+    提示方法的参数：ctrl + p
+    注释：
+        单行注释：ctrl + /
+        多行注释：ctrl + shift + /
+    idea中怎么定位方法/属性/变量？
+        光标停到某个单词的下面，这个单词可能是：
+            方法名、变量名
+        停到单词下面之后,按ctrl键，出现下滑线，点击跳转。
+    idea当中复制一行是：ctrl + d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
